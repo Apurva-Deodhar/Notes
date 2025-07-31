@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.35.1",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^8.0.1"
+  }
+}
