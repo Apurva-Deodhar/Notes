@@ -27,32 +27,6 @@ Hot Toast – For displaying beautiful and responsive toast notifications.
 Lucide – An icon library used for adding elegant and consistent icons to the UI.
 Tailwind CSS – A utility-first CSS framework used to design and style the frontend efficiently and responsively
 
-📁 Project Structure
-backend/
-└── src/
-    ├── server.js              # Entry point
-    ├── config/                # MongoDB connection and config
-    ├── models/                # Mongoose schemas
-    ├── controllers/           # Route handler logic
-    ├── middleware/            # Custom middleware
-    └── NotesRoute/            # Route definitions
-frontend/
-├── public/
-│   └── index.html             # Root HTML file
-├── src/
-│   ├── App.jsx                # Root React component
-│   ├── main.jsx               # Entry point for React DOM rendering
-│   ├── index.css              # Global styles
-│   ├── pages/                 # Page components
-│   ├── components/            # Reusable UI components
-│   └── lib/                   # Utility functions/config
-├── package.json               # Frontend dependencies
-├── tailwind.config.js         # Tailwind CSS configuration
-├── postcss.config.js          # PostCSS plugins (used by Tailwind)
-├── vite.config.js             # Vite build tool config
-└── README.md
-
-
 🧑‍💻 Setup Instructions
 - Clone the repository
 - Run npm install in both the /backend and /frontend directories
